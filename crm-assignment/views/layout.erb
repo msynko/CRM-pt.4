@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+   <h1><%=@title%></h1>
+   <ul class = nav>
+   <li ><a href="/">Home</a></li>
+   <li ><a href="/contacts/new">Add Contact</a> </li>
+   <li ><a href="/about">About</a></li>
+   </ul>
+   <%= yield %>
+    <footer>
+      © Bitmaker 2018
+    </footer>
+  </body>
+</html>
